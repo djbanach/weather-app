@@ -10,17 +10,17 @@ const Current = (props) => {
         }
         {
             props.description && <p className="weather__key"> Description:
-                <span className="weather__value"> { props.description }	</span>
+                <span className="weather__value"> { props.description }</span>
             </p>
         }
         {
             props.temperature && <p className="weather__key"> Temperature:
-                <span className="weather__value"> { props.temperature }	</span>
+                <span className="weather__value"> { props.temperature } F </span>
             </p>
         }
         {
             props.min_temp && props.max_temp && <p className="weather__key"> High/Low:
-                <span className="weather__value"> { props.max_temp } / { props.min_temp } </span>
+                <span className="weather__value"> { props.max_temp } F / { props.min_temp } F</span>
             </p>
         }
         {
