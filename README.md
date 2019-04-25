@@ -1,3 +1,18 @@
+## Summary
+
+A very simple react application that displays the some current weather information about a city. This app uses [Open Weather Map's api](https://openweathermap.org/api) to get the data. The styling was done by bootstrap and regular css.
+
+## Components
+* React-bootstrap was the only component used
+
+## What I learned
+
+* More react fundamentals
+* More practice with api's
+* More styling with react-bootstrap
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
