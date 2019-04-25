@@ -1,11 +1,13 @@
 import React from 'react';
+import { Navbar } from 'react-bootstrap';
 
 const Title = () => {
     return (
-        <div>
-            <h1>Title</h1>
-            <h3>Subtitle</h3>
-        </div>
+        <Navbar bg="primary" variant="dark">
+            <Navbar.Brand href="#">
+                Weather App
+            </Navbar.Brand>
+        </Navbar>
     )
 }
 
